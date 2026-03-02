@@ -29,14 +29,14 @@ export default function Quiz() {
 
             <Box current={current} next={setCurrent} />
 
-            {/* Keyboard hints */}
+            {/* Controls hints */}
             <div className='mt-4 flex justify-center gap-4 flex-wrap'>
                 {[
-                    { key: '1-4', label: 'Select' },
-                    { key: 'Enter', label: 'Next' },
-                    { key: 'R', label: 'Reset' },
-                    { key: 'Esc', label: 'Exit' },
-                ].map(({ key, label }) => (
+                    { key: '1-4', label: 'Select', voice: '"option one"' },
+                    { key: 'Enter', label: 'Next', voice: '"next"' },
+                    { key: 'R', label: 'Reset', voice: '"reset"' },
+                    { key: 'Esc', label: 'Exit', voice: '"exit"' },
+                ].map(({ key, label, voice }) => (
                     <div key={key} className='flex items-center gap-1.5'>
                         <kbd className='px-1.5 py-0.5 rounded bg-white/10 text-slate-400 font-mono text-[10px]'>{key}</kbd>
                         <span className='text-[11px] text-slate-500'>{label}</span>

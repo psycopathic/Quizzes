@@ -46,7 +46,7 @@ export default function Start() {
                 </button>
 
                 <p className='text-slate-500 text-xs mt-6'>
-                    ⌨️ Press <kbd className='px-1.5 py-0.5 rounded bg-white/10 text-slate-400 font-mono text-[10px]'>Enter</kbd> or <kbd className='px-1.5 py-0.5 rounded bg-white/10 text-slate-400 font-mono text-[10px]'>Space</kbd> to start
+                    🎤 Say <span className='text-slate-400 font-medium'>"start"</span> · ⌨️ Press <kbd className='px-1.5 py-0.5 rounded bg-white/10 text-slate-400 font-mono text-[10px]'>Enter</kbd>
                 </p>
             </div>
         </div>

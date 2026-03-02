@@ -91,7 +91,7 @@ export default function Result() {
                 </button>
 
                 <p className='text-slate-500 text-xs mt-6'>
-                    ⌨️ Press <kbd className='px-1.5 py-0.5 rounded bg-white/10 text-slate-400 font-mono text-[10px]'>Enter</kbd> to play again
+                    🎤 Say <span className='text-slate-400 font-medium'>"play again"</span> · ⌨️ Press <kbd className='px-1.5 py-0.5 rounded bg-white/10 text-slate-400 font-mono text-[10px]'>Enter</kbd>
                 </p>
             </div>
         </div>
